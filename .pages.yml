@@ -1,0 +1,50 @@
+media:
+  input: photos
+  output: /photos
+content:
+  - name: articles
+    label: Articles
+    type: file
+    path: articles.json
+    format: json
+    list: true
+    fields:
+      - name: titre
+        label: Titre
+        type: string
+        required: true
+      - name: rub
+        label: Rubrique
+        type: select
+        options:
+          values:
+            - {value: route, label: Route}
+            - {value: femmes, label: Femmes}
+            - {value: cx, label: Cyclo-cross}
+            - {value: mercato, label: Mercato}
+            - {value: conseils, label: Conseils}
+            - {value: analyses, label: Analyses}
+            - {value: materiel, label: Matériel}
+      - name: texte
+        label: Texte
+        type: text
+        required: true
+      - name: photo
+        label: Photo
+        type: image
+      - name: auteur
+        label: Signature
+        type: string
+      - name: date
+        label: Date
+        type: date
+        required: true
+      - name: chapo
+        label: Résumé (facultatif)
+        type: string
+      - name: une
+        label: À la une
+        type: boolean
+      - name: brouillon
+        label: Brouillon (pas affiché)
+        type: boolean
