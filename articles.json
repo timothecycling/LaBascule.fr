@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "titre": "Test",
+    "rub": "route",
+    "texte": "petit test des articles",
+    "photo": "/photos/tadej-pogacar-2000_cedf593cee68da92616e9268911c166a.jpg",
+    "date": "2026-11-13",
+    "une": true,
+    "brouillon": false
+  },
+  {
+    "titre": "Attaque de pogi",
+    "rub": "route",
+    "texte": "test articles",
+    "photo": "/photos/tadej-pogacar-2000_cedf593cee68da92616e9268911c166a-1.jpg",
+    "auteur": "Timothé",
+    "date": "2026-11-13",
+    "chapo": "attaque de pogi",
+    "une": true,
+    "brouillon": false
+  }
+]
